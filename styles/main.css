@@ -1,0 +1,34 @@
+@tailwind base;
+@layer base {
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 100 900; /* Defines the range of weights available */
+    font-display: swap;
+    src: url('/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900; /* Defines the range of weights available */
+    font-display: swap;
+    src: url('/fonts/Inter-VariableFont.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Inter-Italic';
+    font-style: italic;
+    font-weight: 100 900; /* Defines the range of weights available */
+    font-display: swap;
+    src: url('/fonts/Inter-Italic-VariableFont.ttf') format('truetype');
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-stone-300 text-stone-900;
+}
+
+html.dark {
+  @apply bg-stone-900 text-stone-300;
+}
