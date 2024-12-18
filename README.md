@@ -12,21 +12,21 @@ These are setup to my preferences using the packages that I most use, project st
 
 ## Next Templates
 
-**Nuxt Typescript:**
-**Next:**
-**Next Typescript:**
+- Nuxt Typescript
+- Next**
+- Next Typescript
 
 ## Nuxt Starter Details
 
-NuxtUI: already install and sets up @nuxt/icon, @nuxtjs/tailwindcss and @nuxtjs/color-mode.
-Nuxt SEO: basic setup with site information, manifest, robots.txt file and favicon images
-Fonts: Using as example Quicksand and Inter. Files are on public/fonts folder. Fontface added at main.css file. And configuration on tailwind.config.ts file
+- NuxtUI: already install and sets up @nuxt/icon, @nuxtjs/tailwindcss and @nuxtjs/color-mode.
+- Nuxt SEO: basic setup with site information, manifest, robots.txt file and favicon images
+- Fonts: Using as example Quicksand and Inter. Files are on public/fonts folder. Fontface added at main.css file. And configuration on tailwind.config.ts file
 
-Pages: Layout Default; Index; Error;
+- Pages: Layout Default; Index; Error;
 
-Components: Folder structure, assets, CSS, nuxtconfig, public folder usign favicon and logo from mqddev web as example.
+- Components: Folder structure, assets, CSS, nuxtconfig, public folder usign favicon and logo from mqddev web as example.
 
-Lint: eslint for lint and formating. Based on @antfu/eslint-config. Esling, using @nuxt/eslint and @antfu/eslint-config. Also, created a .vscode/settings.json (I use this since I do not want to add them globaly).
+- Lint: eslint for lint and formating. Based on @antfu/eslint-config. Esling, using @nuxt/eslint and @antfu/eslint-config. Also, created a .vscode/settings.json (I use this since I do not want to add them globaly).
 
 Important:
 - Make sure to substitute images with new ones. Use a site like realfavicongenerator.net
